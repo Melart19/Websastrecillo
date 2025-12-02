@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <link rel="stylesheet" href="otro.css">
+    <title>Aventura Grafica del Sastrecillo</title>
+    <style>
+    .card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 20px;         
+    width: 100%;
+    margin-top: 20px;
+}
+.card {
+    max-width: 350px;
+    width: 100%;
+}
+
+
+body {
+    background-image: url("TpfinalWeb/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+.paper.container-sm,
+.paper.container {
+    max-width: 900px; 
+    margin: 40px auto;
+
+    background-image: url("TpfinalWeb/fondopapel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+
+.fondo-tela {
+    background-image: url("TpfinalWeb/tela.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.texto.blanco {
+    color: white !important;
+}
+
+
+.navbar a {
+    color: white !important;
+    text-decoration-color: white !important;
+}
+
+.navbar a:hover {
+    text-decoration-color: white !important;
+}
+
+
+.collapsible label .bar1,
+.collapsible label .bar2,
+.collapsible label .bar3 {
+    background-color: white !important;
+}
+
+
+.navbar {
+    box-shadow: none !important;   
+    border-color: white !important;
+}
+
+
+.navbar {
+    border: 2px solid white !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+nav {
+    width: 100%;
+}
+
+.split-nav .collapsible-body ul {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+    </style>
+</head>
+
+<nav class="border fixed split-nav fondo-tela">
+    
+    <div class="nav-brand">
+        <h3><a href="#" class="texto blanco">El Sastrecillo Valiente</a></h3>
+    </div>
+
+    <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1">
+        <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </label>
+
+        <div class="collapsible-body">
+            <ul class="inline">
+                <li><a href="pestaña.html" class="texto blanco">Aventura</a></li>
+                <li><a href="proceso.html" class="texto blanco">Proceso</a></li>
+                <li><a href="index.html" class="texto blanco">Inicio</a></li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+
+<body>
+
+
+    <div class="paper container-sm">
+        <h1 id="sv">El Sastrecillo valiente</h1>
+
+        <p>
+            <img src="TpfinalWeb/img-12.jpg" class="float-left" width="200" height="40">
+            El cuento narra la historia de un joven sastrecillo que un día, mientras trabajaba, mata de un solo
+            golpe a siete moscas que lo estaban molestando. Orgulloso de su hazaña, decide bordar en su cinturón
+            la frase “Siete de un golpe”, aunque no aclara que eran moscas. Con esa frase ambigua, todos
+            interpretan
+            que derrotó a siete hombres, lo que despierta admiración y asombro.
+            Animado por su supuesta valentía, el sastrecillo sale a recorrer el mundo. En su aventura se
+            encuentra con
+            distintos desafíos que supera usando más su astucia que la fuerza: engaña a dos gigantes, captura a
+            un unicornio,
+            atrapa a un jabalí salvaje y resuelve las pruebas que le impone un rey desconfiado que no quiere
+            recompensarlo.
+            <img src="TpfinalWeb/img-15.jpg" class="float-right" width="100" height="30">
+            Finalmente, tras demostrar una y otra vez su ingenio, logra ganarse un lugar en el reino y
+            casarse
+            con la princesa, convirtiéndose en un personaje respetado (aunque muchos siguen sin saber que su
+            famosa hazaña original era solo contra moscas).
+        </p>
+
+        <div class="card-wrapper">
+       <div class="card fondo-tela">
+    <div class="card-body">
+
+
+
+                    <div class="card-body">
+                        <h4 class="texto blanco" class="card-title">Aventura grafica</h4>
+                        <img src="TpfinalWeb/img-2.jpg" alt="">
+                        <img src="TpfinalWeb/img-19.jpg" alt="">
+
+                        <p class="texto blanco"class="card-text"> Nuestra aventura gráfica del Sastrecillo Valiente
+                            cuenta la historia de un
+                            joven sastre que,
+                            de un solo golpe, mata a siete moscas...</p>
+                        <button><a href="pestaña.html">leer mas</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

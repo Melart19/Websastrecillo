@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+     <title>Aventura Grafica del Sastrecillo</title>
+    <style>.card-wrapper {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+body {
+    background-image: url("TpfinalWeb/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.paper.container {
+    background-image: url("TpfinalWeb/fondopapel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;      
+    margin: 100px auto 40px auto;  
+}
+
+
+
+.fondo-tela {
+    background-image: url("TpfinalWeb/tela.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto.blanco {
+    color: white !important;
+}
+
+
+.navbar a {
+    color: white !important;
+    text-decoration-color: white !important;
+}
+
+.navbar a:hover {
+    text-decoration-color: white !important;
+}
+
+
+.collapsible label .bar1,
+.collapsible label .bar2,
+.collapsible label .bar3 {
+    background-color: white !important;
+}
+
+
+.navbar {
+    box-shadow: none !important;
+    border: 2px solid white !important;
+}
+
+
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.texto.fondo-tela {
+    color: white !important;
+}
+
+
+
+@media (max-width: 600px) {
+    .paper.container {
+        margin: 80px 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+</style>
+</head>
+</head>
+
+   </style>
+</head>
+
+<nav class="border fixed split-nav fondo-tela">
+    
+    <div class="nav-brand">
+        <h3><a href="#" class="texto blanco">El Sastrecillo Valiente</a></h3>
+    </div>
+
+    <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1">
+        <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </label>
+
+        <div class="collapsible-body">
+            <ul class="inline">
+                <li><a href="pestaña.html" class="texto blanco">Aventura</a></li>
+                <li><a href="proceso.html" class="texto blanco">Proceso</a></li>
+                <li><a href="index.html" class="texto blanco">Inicio</a></li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<body>
+   <div class="paper container">
+
+        <article class="article">
+            <h1 class="article-title"><a href="">Proceso de la aventura</h1>
+            <p>Nuestro proceso comenzó armando un flujo de la historia, donde definimos cómo iban a ser las
+                pantallas y
+                qué opciones tendría la aventura gráfica. Una vez que eso estuvo bien establecido, empezamos a crear
+                los
+                prompts para generar las imágenes: qué estilo tendrían y cómo debía verse cada escena.
+                Con los prompts listos, utilizamos la IA de Google Gemini y fuimos generando las imágenes.
+                Por suerte, todas salieron bastante parecidas entre sí, manteniendo coherencia visual. Cuando
+                ya teníamos todas las imágenes, comenzamos la parte de programación en Processing/p5.js.
+                No tuvimos problemas con el código y aprobamos la primera instancia.
+                Durante todo el proceso nos comunicamos mucho por llamadas de Discord, donde definimos el estilo
+                visual:
+                dibujos con estética de cuento y colores claros. También trabajamos el flujo de la historia, creando
+                cada
+                pantalla, su texto y las opciones/aventuras que tendrá el usuario al interactuar con la aplicación.</p>
+
+            <div class="row">
+                <button><a href="index.html"> volver</a></button>
+            </div>
+                  <div class="card-wrapper">
+                    <div class="card fondo-tela">
+            <div class="card" style="width:20rem">
+            <img src="TpfinalWeb/img-7.jpg" alt="Card example image">
+
+            <div class="card-body">
+                <h4 class="texto blanco"class="card-title">integrantes del equipo </h4>
+                <p class="texto blanco" class="card-text">Somos Milagros Pocholo y Chiara Scuderi
+                    de la comision 5 .</p>
+</div>
+            </div>
+        </article>
+        </div>
+        <div>
+ 
+        </div>
+        
+        </div>
+        
+</body>
+
+</html>
